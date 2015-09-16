@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <link rel="stylesheet" media="all" href="player.css"/>
+    <title>JSmod JavaScript MOD Player by atbrask</title>
+  </head>
+  <body>
+
+    <div>JSmod JavaScript MOD player</div>
+    <div>(c) 2011-2015 atbrask@gmail.com</div>
+    <div id="drop_zone">Drop MOD file here</div>
+  
+    <p>
+      <button onclick="rewind()">Rewind</button>
+      <button onclick="play()">Play</button>
+      <button onclick="pause()">Pause</button>
+    </p>
+
+    <div id="title">
+      Title...
+    </div>
+
+    <div id="channels">
+      Channels...
+    </div>
+
+    <div id="samplelist">
+      Samples...
+    </div>
+
+    <div id="patterncurrent">
+      Current pattern...
+    </div>
+
+    <div id="patterns" class="patternwindow">
+      No patterns loaded yet...
+    </div>
+
+    <script src="jsmod.js"></script>
+    <script src="player.js"></script>
+
+  </body>
+</html>
